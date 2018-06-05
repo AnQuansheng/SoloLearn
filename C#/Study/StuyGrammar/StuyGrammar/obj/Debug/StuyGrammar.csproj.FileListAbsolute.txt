@@ -1,0 +1,6 @@
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\bin\Debug\StuyGrammar.exe.config
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\bin\Debug\StuyGrammar.exe
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\bin\Debug\StuyGrammar.pdb
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\obj\Debug\StuyGrammar.csprojResolveAssemblyReference.cache
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\obj\Debug\StuyGrammar.exe
+D:\SoloLearn\C#\Study\StuyGrammar\StuyGrammar\obj\Debug\StuyGrammar.pdb
