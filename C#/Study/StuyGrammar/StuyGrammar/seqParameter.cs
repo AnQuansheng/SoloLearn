@@ -26,6 +26,7 @@ namespace StuyGrammar
             Console.WriteLine("res={0}",res);
             Console.WriteLine("seqRes={0}",seqRes);
             Console.ReadKey();
+            //测试git Push
         }
     }
 }
