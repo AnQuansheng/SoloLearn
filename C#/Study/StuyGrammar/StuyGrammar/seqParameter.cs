@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace StuyGrammar
 {
-    class Program
+    class seqParameter
+
     {
         static int Area(int h, int w)
         {
