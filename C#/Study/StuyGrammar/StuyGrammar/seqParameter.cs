@@ -22,12 +22,12 @@ namespace StuyGrammar
         }
         static void Main(string[] args)
         {
+			//自定义parameters 对应的 arguements
             int res = Area(w: Readline(), h: Readline());
             int seqRes = Area( Readline(), Readline());
             Console.WriteLine("res={0}",res);
             Console.WriteLine("seqRes={0}",seqRes);
             Console.ReadKey();
-            //测试git Push
         }
     }
 }
