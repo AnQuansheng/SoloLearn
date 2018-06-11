@@ -11,7 +11,7 @@ namespace StuyGrammar
         /*
         public int publicAge { get; set; }相当于
         private int publicAge;
-        public int PublicAge
+        public int _publicAge
         {
             get{return publicAge;}        
             set{publicAge = value;}
