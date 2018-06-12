@@ -11,7 +11,8 @@ namespace StuyGrammar
         int[,,][] multidimensionArray =
         {
 
-            //多维数组，1维
+            //多维数组，
+            //1维
             {
                 //2维
                 {
@@ -29,18 +30,21 @@ namespace StuyGrammar
                 },
             },
 
+             //1维
             {
-                 {
-                  new int[] {1,51},
-                  new int[] {1,52}
-                 },
+                //2维
                 {
-                  new int[] {2,61},
-                  new int[] {2,62}
-                },
+                    //3维
+                    new int[] {1,51},
+                    new int[] {1,52}
+                },  
                 {
-                  new int[] {3,71},
-                  new int[] {3,72}
+                    new int[] {2,61},
+                    new int[] {2,62}
+                },  
+                {
+                    new int[] {3,71},
+                    new int[] {3,72}
                 },
             }
          };
