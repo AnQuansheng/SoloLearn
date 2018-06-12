@@ -16,7 +16,7 @@ namespace StuyGrammar
             {
                 //2维
                 {
-                    //3维123
+                    //3维
                     new int[] {1,99},
                     new int[] {1,66}
                 },  
