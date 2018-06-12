@@ -9,7 +9,7 @@ namespace StuyGrammar
     class filedAndProperties1
     {
         /*
-        public int publicAge { get; set; }相当于
+        public int publicAge { get; set; } 相当于
         private int publicAge;
         public int _publicAge
         {
