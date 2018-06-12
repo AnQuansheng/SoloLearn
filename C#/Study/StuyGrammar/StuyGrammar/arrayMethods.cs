@@ -11,18 +11,21 @@ namespace StuyGrammar
         int[,,][] multidimensionArray =
         {
 
+            //多维数组，1维
             {
+                //2维
                 {
-                  new int[] {1,99},
-                  new int[] {1,66}
-                },
+                    //3维
+                    new int[] {1,99},
+                    new int[] {1,66}
+                },  
                 {
-                  new int[] {2,3},
-                  new int[] {2,3}
-                },
+                    new int[] {2,3},
+                    new int[] {2,3}
+                },  
                 {
-                  new int[] {3,4},
-                  new int[] {3,4}
+                    new int[] {3,4},
+                    new int[] {3,4}
                 },
             },
 
@@ -30,7 +33,7 @@ namespace StuyGrammar
                  {
                   new int[] {1,51},
                   new int[] {1,52}
-                },
+                 },
                 {
                   new int[] {2,61},
                   new int[] {2,62}
@@ -42,30 +45,21 @@ namespace StuyGrammar
             }
          };
 
-        public void math(out int max,out int min,out int sum)
+        //利用out返回三个值
+        public void Math(out int max, out int min, out int sum)
         {
-            int arrayMax = multidimensionArray[0, 0, 1].Max();
-            int arrayMin = multidimensionArray[0, 0, 1].Min();
-            int arraySum = multidimensionArray[0, 1, 1].Sum();
-            max = arrayMax;
-            min = arrayMin;
-            sum = arraySum;
+            max = multidimensionArray[0, 0, 1].Max();
+            min = multidimensionArray[0, 0, 1].Min();
+            sum = multidimensionArray[0, 1, 1].Sum();
         }
     }
 
     class MyClass
     {
-        //private static int a;
-        //private static int b;
-        //private static int c;
-
         static void Main(string[] args)
         {
-            int a;
-            int b;
-            int c;   
             arrayMethods p = new arrayMethods();
-            p.math(out a,out  b,out  c);
+            p.Math(out int a,out int b, out int c);
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
