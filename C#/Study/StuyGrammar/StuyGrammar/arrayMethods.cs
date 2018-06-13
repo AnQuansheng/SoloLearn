@@ -62,8 +62,15 @@ namespace StuyGrammar
     {
         static void Main(string[] args)
         {
+            
             arrayMethods p = new arrayMethods();
-            p.Math(out int a,out int b, out int c);
+
+            //VS2017,out关键字修饰参数可以直接如下声明
+            //p.Math(out int a,out int b, out int c);
+            int a;
+            int b;
+            int c;
+            p.Math(out a, out  b, out  c);
             Console.WriteLine(a);
             Console.WriteLine(b);
             Console.WriteLine(c);
