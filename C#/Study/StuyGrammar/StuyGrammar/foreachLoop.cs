@@ -8,7 +8,7 @@ namespace StuyGrammar
 {
     class foreachLoop
     {
-        int[] a = { 1, 3, 5, 7, 2, 4, 6, 8 };
+        string [] a = { "asa", "aaasa", "adaasa", "assdasfa", "asdfgsa", "asfsdvcva", "asttta", "afdfssa" };
         void returnValue()
         {
             //var自适应类型
