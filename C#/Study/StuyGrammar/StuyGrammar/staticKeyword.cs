@@ -21,7 +21,10 @@ namespace StuyGrammar
             cat c = new cat();
             cat c1 = new cat();
 
-            //"static" has global nature, static members can be accessed directly using the "class name" without an object.    
+            //"static" has global nature, static members can be accessed directly using the "class name" without an object.
+
+            //You must access static members using the class name.
+            //If you try to access them via an object of that class, you will generate an error.    
             Console.WriteLine(dog.dogPP);
             Console.WriteLine(c1.catPP);
             Console.ReadLine();
