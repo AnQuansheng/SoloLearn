@@ -20,7 +20,7 @@ namespace StuyGrammar
 
         //indexer索引器的使用类似属性
         /*
-            Type[] dataVar;
+            
             Type this [int var]
             {   
                 get{}
