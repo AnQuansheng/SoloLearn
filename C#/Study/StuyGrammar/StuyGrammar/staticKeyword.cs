@@ -12,8 +12,8 @@ namespace StuyGrammar
         static void Main(string[] args)
         {
             //每个dog实例都是对同一个dogPP进行操作
-            //d.dogpp值为1 d1.dogpp再加1值为2
             dog d = new dog();
+            dog.dogPP += 5;
             dog d1 = new dog();
 
             //每个cat实例都是一个新的catPP
