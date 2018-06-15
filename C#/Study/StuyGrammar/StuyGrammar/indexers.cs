@@ -23,7 +23,7 @@ namespace StuyGrammar
             Type[] dataVar;
             Type this [int var]
             {   
-                get{return dateVar[var];}
+                get{}
                 set{}      
             }
         */
