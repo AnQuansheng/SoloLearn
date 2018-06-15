@@ -11,7 +11,7 @@ namespace StuyGrammar
         public int High { get; set; }
         public int Width { get; set; }
         /*
-         * 利用够着函数给类赋值
+         * 创建构造函数给类一次传两个参赋值
          * public @operator(int h, int w)
          * {
          *     High = h;
@@ -25,8 +25,10 @@ namespace StuyGrammar
         {
             int h = boxA.High + boxB.High;
             int w = boxA.Width + boxB.Width;
-            //利用构造函数赋值
+
+            //利用构造函数赋值，应该如下
             //@operator res = new @operator(h,w);
+
             @operator res = new @operator();
             res.High = h;
             res.Width = w;
@@ -38,6 +40,8 @@ namespace StuyGrammar
             //利用构造函数赋值
             //@operator A = new @operator(2, 4);
             //@operator B = new @operator(1, 3);
+
+            //否则只能如下，先声明实例，然后一个一个的赋值
             @operator A = new @operator();
             A.High = 2;
             A.Width = 4;
