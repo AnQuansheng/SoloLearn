@@ -32,7 +32,7 @@ namespace StuyGrammar
             Console.WriteLine("hi here");
         }
 
-        //类的构造函数重载
+        //类的构造函数重载-
         public constructorCallMethod(int conAge)
         {
             age = conAge;

@@ -16,7 +16,7 @@ namespace StuyGrammar
             Width = w;
         }
 
-        //操作符重载，类似于method
+        //操作符重载 ，类似于method
         // 返回类型 operator 操作符 （参数） {语句块}
         public static @operator operator& (@operator boxA, @operator boxB)
         {
