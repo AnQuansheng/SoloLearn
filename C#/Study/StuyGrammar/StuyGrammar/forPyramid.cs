@@ -25,7 +25,15 @@ namespace StuyGrammar
         }
         static void Main(string[] args)
         {
-            DrawPyramid(5);
+
+            //System.IO.StreamWriter IO = new System.IO.StreamWriter("test.txt");
+            //Console.SetOut(IO);
+            //DrawPyramid(5);
+
+            //IO.Flush();
+
+            string txt = System.IO.File.ReadAllText("test.txt");
+            Console.Write(txt);
             Console.ReadLine();
         }
     }
